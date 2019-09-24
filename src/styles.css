@@ -47,3 +47,18 @@ html, body {
 .sidebar {
   flex: 0 0 20%;
 }
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+  .sidebar {
+    flex: 0 0 auto;
+  }
+  .content {
+    order: -1;
+  }
+}
