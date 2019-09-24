@@ -48,7 +48,24 @@ html, body {
   flex: 0 0 20%;
 }
 
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-item:hover {
+  background: var(--blue-1);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
+  .nav-list {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 600px) {
@@ -57,6 +74,9 @@ html, body {
   }
   .sidebar {
     flex: 0 0 auto;
+  }
+  .nav-list {
+    flex-direction: column;
   }
   .content {
     order: -1;
