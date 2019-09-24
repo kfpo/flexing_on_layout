@@ -1,0 +1,28 @@
+/* flat ui colors */
+body {
+  --aqua: #81ecec;
+  --aqua-1: #00cec9;
+
+  --green: #55efc4;
+  --green-1: #00b894;
+
+  --blue: #74b9ff;
+  --blue-1: #0984e3;
+
+  --purple: #a29bfe;
+  --purple-1: #6c5ce7;
+
+  --yellow: #ffeaa7;
+  --yellow-1: #fdcb6e;
+
+  --orange: #fab1a0;
+  --orange-1: #e17055;
+
+  --red: #ff7675;
+  --red-1: #d63031;
+
+  --grey: #dfe6e9;
+  --grey-1: #b2bec3;
+  --grey-2: #636e72;
+  --grey-3: #2d3436;
+}

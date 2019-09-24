@@ -1,0 +1,15 @@
+# black hole
+node_modules
+
+# build
+/dist
+
+# cache from parcel, I guess
+.cache
+
+# nodenv
+.node-version
+
+# IDEs
+.idea
+.vscode

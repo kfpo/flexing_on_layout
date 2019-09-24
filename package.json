@@ -1,0 +1,15 @@
+{
+  "name": "flexing_on_layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn start",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
